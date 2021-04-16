@@ -3,4 +3,4 @@
 
 - :lemon:[RecetaLemonPie](https://frnpnk.github.io/FrontEnd1/LemonPie/)
 - :bat:[BatmanCV](https://frnpnk.github.io/FrontEnd1/BatmanCV/)
-- :superhero:[CartasSuperheroes](https://frnpnk.github.io/FrontEnd1/SuperHeroes/)
+- :superhero:[Superheroes](https://frnpnk.github.io/FrontEnd1/SuperHeroes/)
