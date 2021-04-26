@@ -2,5 +2,5 @@
 ## Links a los proyectos:
 
 - :lemon:[RecetaLemonPie](https://frnpnk.github.io/FrontEnd1/LemonPie/)
-- :CV:[ejercicio CV](https://frnpnk.github.io/FrontEnd1/CVFpnk/)
+- :BATMAN:[ejercicio CV](https://frnpnk.github.io/FrontEnd1/CVFpnk/)
 - :superhero:[CartasSuperheroes](https://frnpnk.github.io/FrontEnd1/SuperHeroes/)
