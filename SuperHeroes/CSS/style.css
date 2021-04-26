@@ -1,3 +1,13 @@
+
+*{
+    margin: auto;
+}
+
+
+main{
+    magin:auto;
+    align-content: center;
+}
 body {
     
     background-attachment: fixed;
@@ -9,13 +19,13 @@ body {
 }
 
 .descuentos{
-background-color: #1CD1B0;
-color: black;
-margin: 0px;
-padding: 0px 25px;
-height: 61px;
-font-size: 48px;
-position: relative;
+    background-color: #1CD1B0;
+    color: black;
+    margin: 0px;
+    padding: 0px 25px;
+    height: 61px;
+    font-size: 48px;
+    position: relative;
 }
 header{
     position: sticky;
@@ -41,13 +51,14 @@ h1 {
     position: relative;
     align-content: center;
     background-color: #F3F3F3;
-    margin: auto;
+    margin: 50px;
     width: 699.13px;
     height: 1127px;
     box-shadow: 1px 5px 5px grey;
     border-radius: 60px 60px  0px 0px;
     margin-top: 40px;
     margin-bottom: 200px;
+    display: inline-block;
 
 }
 h2{
@@ -145,3 +156,54 @@ footer {
     bottom: 0;
     z-index: 11;
 }
+
+
+.formulario{
+    border-color:black;
+    display:block;
+    width: 646px;
+    margin: 10px;
+}
+
+.centrado{
+    width: 646px;
+    margin: auto;
+    text-align: center;
+}
+
+.itemFormulario{
+    width: 620px;
+    height: 60px;
+    margin: 10px;
+}
+
+.itemFormulario2{
+    margin-top: 300px;
+    align-items: center;
+    height: 54px;
+    width: 300px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.cajaformulariosuper{
+    column-count: 2;
+    position: relative;
+    background-color: #00669F;
+    color: #FBFFFD;
+    width: 954px;
+    height: 832px;
+    border-radius: 50px;
+    align-content: center;
+
+}
+
+.inputs{
+    width: 343px;
+    height: 63px;
+    border-radius: 20px;
+    margin:20px;
+
+}
+
+

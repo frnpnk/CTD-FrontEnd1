@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="descuentos">
+        <p>Descuentos 20% en todos los productos</p>
+    </div>
+    <header>
+        <h1>Card Super Heroes</h1>
+    </header>
+
+
+    <main>
+
+
+        <form action="" class="cajaformulariosuper">
+            <h3>Añadi tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="inputs">
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" class="inputs">
+                <textarea name="descripcion" id="" cols="30" rows="10" placeholder="Descripción" class="inputs"></textarea>
+            </div>
+            <div>
+                <label for="especie">*Especie</label>
+                <select name="especie" id="" class="inputs">
+                    <option value="1">Anfibio</option>
+                    <option value="2">Terreste</option>
+                    <option value="3">Extraterrestes</option>
+                    <option value="4">Cyborg</option>
+                    <option value="5">Insecto</option>
+                    <option value="6">Hongo</option>
+                </select>
+                <label for="foto"></label>
+                <input type="file" name="foto">
+
+                <p>Poderes</p>
+                <input type="checkbox" name="volar">
+                <label for="volar">volar</label>
+                <input type="checkbox" name="superinteligencia">
+                <label for="superinteligencia">Superinteligencia</label>
+                <input type="checkbox" name="vistaderayo">
+                <label for="vistaderayo">Vista de rayo laser</label>
+                <input type="checkbox" name="billeteragorda">
+                <label for="billeteragorda">Billetera Gorda</label>
+
+
+                <p>Tipo de personaje</p>
+                 <input type="radio" name="heroe">
+                 <label for="heroe">Héroe / Heroína</label>
+                 <input type="radio" name="villano">
+                 <label for="villano">Villano / Villana</label>
+
+
+            </div>
+            <button is="aniadir">Añadir</button>
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <p>TODOS LOS DERECHOS ESTAN LIBERADOS</p>
+    </footer>
+
+</body>
+
+</html>
