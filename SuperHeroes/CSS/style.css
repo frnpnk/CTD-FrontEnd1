@@ -1,150 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 
-*{
+main {
     margin: auto;
+    text-align: center
 }
 
-
-main{
-    magin:auto;
-    align-content: center;
-}
 body {
-    
     background-attachment: fixed;
-    margin: 0;
+    margin: 0px;
     background-position: center;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-
 }
 
-.descuentos{
+.descuentos {
     background-color: #1CD1B0;
     color: black;
     margin: 0px;
     padding: 0px 25px;
-    height: 61px;
-    font-size: 48px;
+    height: 23px;
+    font-size: 15px;
     position: relative;
 }
-header{
+
+header {
     position: sticky;
-    top:0;
+    top: 23px;
+    height: 81px;
     z-index: 99;
-}
-h1 {
     background-color: #00669F;
+}
+
+h1 {
     color: #F3F3F3;
     box-sizing: border-box;
     height: 167px;
-    padding:  25px;
-    font-size: 72px;
+    padding: 25px;
+    font-size: 30px;
     margin: 0px;
-    
+    display: inline-block;
+    vertical-align: middle;
 }
 
+header img {
+    display: inline-block;
+    vertical-align: top;
+}
 
+nav {
+    background-color: #001D2D;
+    padding: 10px 0px;
+    text-align: right;
+    height: 40px;
+}
 
+nav a {
+    color: #F3F3F3;
+    text-decoration: none;
+    margin-right: 20px;
+}
 
-.card{
- 
+.card {
     position: relative;
     align-content: center;
+    text-align: center;
     background-color: #F3F3F3;
-    margin: 50px;
-    width: 699.13px;
-    height: 1127px;
+    margin: 30px;
+    width: 300px;
+    height: 533px;
     box-shadow: 1px 5px 5px grey;
-    border-radius: 60px 60px  0px 0px;
+    border-radius: 60px 60px 0px 0px;
     margin-top: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     display: inline-block;
-
 }
-h2{
-    font-size: 68px;
+
+h2 {
+    top: 74px;
+    font-size: 30px;
     text-align: center;
 }
 
-
-
-#backgroundbat{
+#backgroundbat {
     background-image: url("../img/bg-batman.jpg");
     background-size: cover;
     background-position-x: center;
-    height: 406.63px;
+    height: 193px;
     box-shadow: 1px 5px 5px grey;
-    border-radius: 60px 60px  0px 0px;
-
+    border-radius: 15px 15px 0px 0px;
 }
 
-#backgroundsuper{
+#backgroundsuper {
     background-image: url("../img/bg-superman.jpg");
     background-size: cover;
     background-position-x: center;
-    height: 406.63px;
+    height: 193px;
     box-shadow: 1px 5px 5px grey;
-    border-radius: 60px 60px  0px 0px;
-
+    border-radius: 15px 15px 0px 0px;
 }
-#backgroundwonder{
+
+#backgroundwonder {
     background-image: url("../img/bg-wonderw.jpg");
     background-size: cover;
     background-position-x: center;
-    height: 406.63px;
+    height: 193px;
     box-shadow: 1px 5px 5px grey;
-    border-radius: 60px 60px  0px 0px;
-
+    border-radius: 15px 15px 0px 0px;
 }
 
-.picProfile{
+.picProfile {
     border-radius: 50%;
     position: relative;
-    width: 300px;
-    height: 300px;
-    top: 167.4px;
-    left: 203px;
+    width: 120px;
+    height: 120px;
+    bottom: -120px;
+    align-self: center;
     margin: auto;
     align-content: center;
-
 }
-.profile{
+
+.profile {
     text-align: left;
-    position: absolute;
-    bottom: 100px;
-    font-size: 36px;
+    position: relative;
+    bottom: 0px;
+    font-size: 16px;
     padding: 38px;
 }
 
 .button {
-    background-color:#00669F ;
-    text-decoration:none;
+    background-color: #00669F;
+    text-decoration: none;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     text-align: center;
-    align-content: center;
-    border-radius: 20px;
-    padding: 20px;
-    color: #F3F3F3;    ;
-    left: 200px;
-    margin: 12px;
-    height: 94px ;
-    width: 300px;
-    font-size: 36px;
-    
-    
+    padding: 15px;
+    color: #F3F3F3;
+    height: 48px;
+    width: 128px;
+    font-size: 15px;
+    top: 20px;
 }
 
-#corazon{
-    color:red;
-    position: relative;
-    
-    font-size: 55px;
-    left: 50px;
-    top: 31px;
+#corazon {
+    color: red;
+    position: absolute;
+    font-size: 26px;
+    left: 20px;
+    top: 15px;
     z-index: 98;
 }
 
+.card:hover {
+    width: 320px;
+    height: 553px;
+}
 
 footer {
     margin-top: 20px;
@@ -157,27 +172,26 @@ footer {
     z-index: 11;
 }
 
-
-.formulario{
-    border-color:black;
-    display:block;
+.formulario {
+    border-color: black;
+    display: block;
     width: 646px;
     margin: 10px;
 }
 
-.centrado{
+.centrado {
     width: 646px;
     margin: auto;
     text-align: center;
 }
 
-.itemFormulario{
+.itemFormulario {
     width: 620px;
     height: 60px;
     margin: 10px;
 }
 
-.itemFormulario2{
+.itemFormulario2 {
     margin-top: 300px;
     align-items: center;
     height: 54px;
@@ -186,7 +200,7 @@ footer {
     border-radius: 25px;
 }
 
-.cajaformulariosuper{
+.cajaformulariosuper {
     column-count: 2;
     position: relative;
     background-color: #00669F;
@@ -195,15 +209,11 @@ footer {
     height: 832px;
     border-radius: 50px;
     align-content: center;
-
 }
 
-.inputs{
+.inputs {
     width: 343px;
     height: 63px;
     border-radius: 20px;
-    margin:20px;
-
+    margin: 20px;
 }
-
-
